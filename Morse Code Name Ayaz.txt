@@ -1,0 +1,165 @@
+int led1 = D7; 
+
+void setup() {
+
+  pinMode(led1, OUTPUT);
+
+}
+
+void loop() {
+  
+  //Spelling My Name Ayaz in morse code
+  //Letter A 
+  
+  digitalWrite(led1, HIGH); //Turns On
+ 
+  delay(1000); // Delay For 1 Second
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On
+ 
+  delay(3000);
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  //Letter Y
+  
+  digitalWrite(led1, HIGH); //Turns On 
+ 
+  delay(3000); // Delay for 3 Seconds 
+  
+  digitalWrite(led1, LOW); // Turns Off
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+
+  digitalWrite(led1, HIGH); //Turns On
+
+  delay(1000); // Delay For 1 Second
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On 
+ 
+  delay(3000); // Delay for 3 Seconds
+  
+  digitalWrite(led1, LOW); // Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On 
+ 
+  delay(3000); // Delay for 3 Seconds
+  
+  digitalWrite(led1, LOW); // Turns Off
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  
+  //Letter A
+  
+  digitalWrite(led1, HIGH); //Turns On
+ 
+  delay(1000); // Delay For 1 Second
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On
+ 
+  delay(3000);
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  
+  //Letter Z
+  
+  digitalWrite(led1, HIGH); //Turns On 
+ 
+  delay(3000); // Delay for 3 Seconds
+  
+  digitalWrite(led1, LOW); // Turns Off
+  
+  
+  
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On 
+ 
+  delay(3000); // Delay for 3 Seconds
+  
+  digitalWrite(led1, LOW); // Turns Off
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On
+ 
+  delay(1000); // Delay For 1 Second
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(1000); // Delay For 1 Second
+  
+  
+  
+  
+  digitalWrite(led1, HIGH); //Turns On
+ 
+  delay(1000); // Delay For 1 Second
+  
+  digitalWrite(led1, LOW); //Turns Off
+  
+  
+ 
+  delay(10000); // Delay For 10 Seconds to indicate end of code
+  
+  
+  
+  
+}
